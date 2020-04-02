@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toko Buku</title>
+	<style>
+		.kanan{
+			float: right;
+		}
+		#banner{
+			position: relative;
+			z-index: 1;
+			top:0px;
+			height: 500px;
+			width: 1000px;
+			border-bottom-right-radius: 80px;
+		}
+		.menu{
+            box-shadow: 1px 2px 10px rgba(0, 0, 0, .5);
+        }
+        .menu ul {
+            border-radius: 3px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:  #da9a05;
+        }
+        .menu li{
+        	margin-left: 10px;
+            float: left;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: #da9a05;
+        }
+        .menu li a{
+        	font-weight: bold;
+            display: block;
+            color: white;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+        .menu li :hover {
+            background-color: #ffff;
+            color: black;
+        }
+		 .galeri{
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+            padding: 10px;
+         }
+        .galeri table tr td img{
+            margin: 10px;
+            width: 200px;
+            height: 300px;
+        }
+        #detail{
+            width: 200px;
+        }
+
+
+
+		.kiri{
+			margin-left:50px;
+			float: left;
+			background-color: #f1f1f1;
+			box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+			border-top-left-radius: 80px;
+		}
+		.kiri img{
+			height: auto;
+			width: 200px;
+		}
+		.kiri ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+            margin-left: 30px;
+        }
+        .kiri li a{
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            border-bottom-style: dotted;
+            text-decoration: none;
+            border-bottom-color: #008CBA;
+            border-bottom-width: thin;
+            
+        }
+        .kiri li a:hover{
+            background-color:#da9a05;
+            color: white;
+        }
+        .footer{
+        	border-top-left-radius: 50px;
+        	border-bottom-right-radius: 50px;
+        	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        	background-color:#da9a05;
+        	width: 100%;
+            height: auto;
+            background-color:  
+            border-radius: 8px;
+            bottom: -1200px;
+            position:absolute;
+            text-align: center;
+        }
+         
+         
+	</style>
+</head>
+<body>
+	<div class="isi">
+		<div class="kanan">
+			<img id="banner" src="gambar/banner.jpg">
+			<h1 style="position: absolute; z-index: 2;top: 60%; margin-left: 25%; color: white;">Toko Buku Suastika</h1>
+			<div class="menu">
+				  <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="tentang.html">TENTANG</a></li>
+                    <li><a href="galeri.html">GALERI</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+              </ul>
+			</div>
+			<div class="galeri">
+                <h1>Galeri Buku</h1>
+				 <table>
+                     <tr>
+                        <td><img src="gambar/buku2.png"></td>  
+                        <td>
+                            <div id="detail">
+                                <p>Nama buku        : Big DATA</p>
+                                <p>Tahun Terbit     : 2015</p>
+                                <p>Nama Penerbit    : Made</p>
+                                <p>isbn/kode        : 101</p>
+                                <p>Harga            : Rp. 250.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td>
+                        <td><img src="gambar/buku4.png"></td>
+                        <td>
+                            <div id="detail">
+                                <p>Nama buku        : JAVA</p>
+                                <p>Tahun Terbit     : 2016</p>
+                                <p>Nama Penerbit    : Wayan</p>
+                                <p>isbn/kode        : 102</p>
+                                <p>Harga            : Rp. 200.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td>
+                                  
+                    </tr>    
+                     <tr>
+                        <td><img src="gambar/buku6.jpg"></td>
+                        <td>
+                            <div id="detail">
+                                <p>Nama buku        : PHYTON</p>
+                                <p>Tahun Terbit     : 2019</p>
+                                <p>Nama Penerbit    : Nyoman</p>
+                                <p>isbn/kode        : 103</p>
+                                <p>Harga            : Rp. 150.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td>   
+                        <td><img src="gambar/buku1.jpg"></td>
+                        <td>
+                            <div id="detail">
+                                <p>Nama buku        : JARINGAN KOMPUTER</p>
+                                <p>Tahun Terbit     : 2019</p>
+                                <p>Nama Penerbit    : Ketut</p>
+                                <p>isbn/kode        : 104</p>
+                                <p>Harga            : Rp. 300.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td>             
+                    </tr>  
+                    <tr>
+                         <td><img src="gambar/buku3.png"></td> 
+                         <td>
+                            <div id="detail">
+                                <p>Nama buku        : Pemrograman WEB</p>
+                                <p>Tahun Terbit     : 2020</p>
+                                <p>Nama Penerbit    : Nengah</p>
+                                <p>isbn/kode        : 105</p>
+                                <p>Harga            : Rp. 250.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td> 
+                        <td><img src="gambar/buku5.png"></td> 
+                        <td>
+                            <div id="detail">
+                                <p>Nama buku        : KALKULUS</p>
+                                <p>Tahun Terbit     : 2014</p>
+                                <p>Nama Penerbit    : Putu</p>
+                                <p>isbn/kode        : 106</p>
+                                <p>Harga            : Rp. 200.000</p>
+                                <p><a href="#"><button class="button">Pesan</button></a></p>
+                            </div>
+                        </td>
+                    </tr>                  
+                 </table>
+			</div>
+		</div>
+
+		<div class="kiri">
+			<img src="gambar/logo.png">
+			 <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+              </ul>
+		</div>
+	</div>
+	
+	<div class="footer">
+		 <p>© suastika 2020</p>
+		 <p>Buku Jendela Dunia</p>
+	</div>
+</body>
+</html>
