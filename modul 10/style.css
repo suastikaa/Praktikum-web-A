@@ -1,0 +1,19 @@
+* {
+	background-color: #ffb2b7;
+	font-family: 'Segoe UI';
+  color: white;
+}
+body{
+  margin-left: 30px;
+}
+th {
+  	background-color: #d0464f;
+  	text-align:left;
+  	color:#ffffff;
+  	padding: 10px;
+}	
+td {
+  	background-color:white;
+  	padding: 10px;
+  	color:black;
+}
